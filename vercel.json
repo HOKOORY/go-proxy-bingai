@@ -3,7 +3,7 @@
   "version": 2,
   "functions": {
     "api/*.go": {
-      "runtime": "@vercel/go@3.0.5"
+      "runtime": "@vercel/go@3.1.1"
     },
     "api/v1/*.js": {
       "memory": 512
