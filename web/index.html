@@ -649,5 +649,20 @@ body.b_dark #b_sydWelcomeTemplate .b_wlcmLogo {
   </div>
   
 </body>
+  <script>
+    window.onload = function () {
+        var password = "11223344"; // 设置访问密码
+        while (true) {
+            var userInput = prompt("请输入密码："); // 弹出密码输入框
+            if (userInput !== password) {
+                alert("密码错误，无法进入网站！"); // 密码错误，显示提示信息
+                // window.close(); // 关闭当前窗口
+            } else {
+                break;
+            }
+        }
+    };
+
+</script>
 
 </html>
